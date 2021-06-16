@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #333;
+    font-family: "Josefin Sans";
+    line-height: 1.5;
+}
+body{
+    padding: 2rem 2.5rem;
+    background: linear-gradient(#e66465, #9198e5);
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    padding: 0.75rem 0;
+    margin-bottom: 2rem;
+}
+h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: salmon;
+}
+p{
+    line-height: 1.5;
+}
+section + section{
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    border-radius: 360px;
+    width: 16rem;
+    height: 16rem;
+}
+.profile p{
+    color: #888;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+.contant ul{
+    margin-top: -2rem;
+}
+.contant li{
+    text-align: right;
+    
+    padding: 1rem;
+    color: #888;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+    font-size: 1rem;
+}
+.Skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.timeline  + .event .event .event{
+    padding-top: 1rem;
+}
+.timeline .event{
+    display: grid;
+    grid-template-columns: 5ch 1fr;
+}
+.timeline .content{
+    border-left: 1px solid #888;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.content > h3+p{
+    margin-bottom: 1rem;
+    color: #333;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-gap: 4rem;
+    background-color: white;
+    padding: 3rem;
+    max-width: 1000px;
+    margin: auto;
+}
+.fa{
+    padding-right: 4rem;
+    width: 15px;
+    height: 15px;
+    
+}
+
+
+
